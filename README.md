@@ -4,7 +4,7 @@ This project explores the **numerical analysis** of a time-dependent **1D Wave P
 
 [Project Page](https://jamesakl.com/nla-wave)
 
-The continuous system is first space-discretized, then time-discretized, while using finite-difference approximations, to produce a discrete approximate system. An **iterative solution** is then designed, and initial values are chosen. Convergence is analyzed via the Courant–Friedrichs–Lewy convgerence (CFL) condition. The implementation reduces computational cost via sparse matrix structures as well as memory allocations via replacing 2D operations with 1D operations wherever possible.
+The continuous system is first **space-discretized**, then **time-discretized**, while using finite-difference approximations, to produce a **discrete approximate system**. An **iterative solution** is then designed, and initial values are chosen. Convergence is analyzed via the **Courant–Friedrichs–Lewy** (CFL) **convergence  condition**. The implementation reduces computational cost via **sparse matrix structures** as well as memory allocations via replacing 2D operations with 1D operations wherever possible.
 
 The project page details the methodology, mathematical formulation, discretization, convergence guarantees, function headers, and results.
 
